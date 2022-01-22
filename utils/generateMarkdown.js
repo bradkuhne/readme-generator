@@ -16,6 +16,22 @@ function generateMarkdown(data) {
   return `# ${data.title} 
   \n## Description
   \n ${data.description}
+  \n## Table of Contents
+  \n* [Installation](#Installation)
+  \n* [Usage](#Usage)
+  \n* [Contributions](#Contributions)
+  \n* [Tests](#Tests)
+  \n* [Questions](#Questions)
+  \n## Installation
+  \n ${data.installation}
+  \n## Usage
+  \n ${data.usage}
+  \n## Contributions
+  \n ${data.contrib}
+  \n## Test Instructions
+  \n ${data.test}
+  \n## Questions
+  \n https://github.com/${data.userName}  Email: ${data.email}
 
 `;
 }
