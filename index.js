@@ -41,31 +41,22 @@ const questions = () => {
             return title;
         })
         .then((title) => {
-            const fileName = "trialMD"
+            const fileName = './dist/generatedReadMe.md'
             writeToFile(fileName, title);
         })
 
 };
-
-
 // TODO: Create a function to write README file
 const writeToFile = (fileName, data) => {
     console.log("Inside writeToFile" + "File name: " + fileName + "   Title: " + data);
     // writing files
-    return new Promise((resolve, reject) => {
-        fs.writeFile('./dist/generatedReadMe.md', data, err => {
+    fs.writeFile(fileName, data, err => {
             if (err) {
-                reject(err);
-                return;
-            }
-            resolve({
-                ok: true,
-                message: 'ReadMe File has been created!'
-            });
-        });
-        console.log ("The readme file has been generated!");
+                return console.log(err);
+        }
+        console.log("The readme file has been successfully generated!");
     });
-};
+}
 
 
 // TODO: Create a function to initialize app
