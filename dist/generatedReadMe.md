@@ -1,8 +1,8 @@
-# Professional Command Prompt Readme Generator 
+# Readme Generator 
   
 ## Description
   
- This project allows the user to generate professional readme files automatically using input from the command prompt.
+ The Readme Generator allows a user to create a quick but professional readme file from the user command prompt.
   
 ## License
   
@@ -24,19 +24,19 @@
   
 ## Installation
   
- First install inquirer.
+ To install Readme Generator you just need to have Inquirer installed.  After that, just run index.js.
   
 ## Usage
   
- Use this project to quickly create a professional readme from the command prompt.
+ The Readme Generator should be used by full-stack developers to quickly generate professional readme project files.
   
 ## Contributions
   
- Brad Kuhne was the sole contributor with a little help from Tyler and Henry.
+ This project was solely developed by Brad Kuhne (with a little help from Tyler and Henry along the way.)
   
 ## Test Instructions
   
- TDD was not used.  Test the project by running it and filling out the command prompts.
+ This project was not developed with TDD.  To test it, run index.js and compare results to expected results.
   
 ## Questions
   

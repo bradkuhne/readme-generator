@@ -1,5 +1,15 @@
 # readme-generator
 Node.js Command Prompt Professional Readme Generator
+
+Github repository: https://github.com/bradkuhne/readme-generator
+
+Screencastify link: https://watch.screencastify.com/v/j7wfTu0Vuu3ne6ExnD1z
+
+
+
+
+
+
 User Story
 AS A developer
 I WANT a README generator
